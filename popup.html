@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>HelpMeOut</title>
+  </head>
+  <body>
+    <div class="App">
+      <div class="top-nav">
+        <div class="inner-top-nav">
+          <img src="./fullLogo.png" class="full-logo" alt="" />
+          <div class="left-side">
+            <i class="fas fa-gear"></i>
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <p class="brief">
+          This extension helps you record and share help videos with ease.
+        </p>
+      </div>
+
+      <div class="middle-nav">
+        <div class="first-aspect">
+          <div class="i-pack">
+            <i class="fas fa-television"></i>
+            <p class="label">full screen</p>
+          </div>
+          <div class="i-pack">
+            <i class="fas fa-copy"></i>
+            <p class="label">current tab</p>
+          </div>
+        </div>
+
+        <div class="border-icon-pack">
+          <div class="left-area">
+            <i class="fas fa-video"></i>
+            <span class="label">camera</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div class="border-icon-pack">
+          <div class="left-area">
+            <i class="fas fa-microphone"></i>
+            <span class="label">audio</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <button class="start">start recording</button>
+    </div>
+
+
+    <!-- /black recording panel on th bottom left ofthe screen -->
+    <!-- <div class="recordingPanel">
+      <p class="minute">00:03:45</p>
+      <p class="minute">|</p>
+      <div class="icon-figure">
+        <i class="fas fa-pause"></i>
+        <span class="indicator">pause</span>
+      </div>
+      <div class="icon-figure">
+        <i class="fas fa-stop"></i>
+        <span class="indicator">stop</span>
+      </div>
+      <div class="icon-figure">
+        <i class="fas fa-video"></i>
+        <span class="indicator">camera</span>
+      </div>
+      <div class="icon-figure">
+        <i class="fas fa-microphone"></i>
+        <span class="indicator">mic</span>
+      </div>
+      <div class="icon-figure">
+        <i class="fas fa-trash"></i>
+      </div>
+    </div> -->
+    <script src="./js/popup.js"></script>
+  </body>
+</html>
